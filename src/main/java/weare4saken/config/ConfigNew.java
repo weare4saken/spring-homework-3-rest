@@ -26,7 +26,7 @@ public class ConfigNew {
 
         try {
             dataSource.setDriverClass("org.postgresql.Driver");
-            dataSource.setJdbcUrl("jdbc:postgresql://localhost/weare4saken");
+            dataSource.setJdbcUrl("jdbc:postgresql://localhost/skypro");
             dataSource.setUser("postgres");
             dataSource.setPassword("828631");
         } catch (PropertyVetoException e) {
