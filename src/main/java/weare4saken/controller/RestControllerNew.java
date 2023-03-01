@@ -38,7 +38,7 @@ public class RestControllerNew {
         return employee;
     }
 
-    @DeleteMapping("/employee/{id}")
+    @DeleteMapping("/employees/{id}")
     public String deleteEmployee(@PathVariable int id) {
         employeeService.deleteEmployee(id);
         return "Employee with id= " + id + " was deleted";

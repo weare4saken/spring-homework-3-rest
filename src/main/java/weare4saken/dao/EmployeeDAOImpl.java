@@ -9,7 +9,7 @@ import weare4saken.entity.Employee;
 import java.util.List;
 
 @Repository
-public class EmployeeDAOImpl {
+public class EmployeeDAOImpl implements EmployeeDAO{
 
     private SessionFactory sessionFactory;
 
